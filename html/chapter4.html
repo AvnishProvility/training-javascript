@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional</title>
+    <h1 style="text-align: center; color: rebeccapurple;">Conditional Program...</h1>
+</head>
+
+<body>
+    <script>
+        var speedLimit = 60;
+
+        function iAmSpeeding(speed) {
+            if (speed >= speedLimit) {
+                alert("yes, you are speeding");
+            } else {
+                alert("No. You are not speeding");
+            }
+        }
+        var xPos = 200;
+        var yPos = 120;
+
+        function sendWarning(x, y) {
+            if (x < xPos && y < yPos) {
+                alert("adjust the position");
+            } else {
+                alert("fine");
+            }
+        }
+        iAmSpeeding(69);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="form">
+
+        <div id="pId-div">
+            <label>Person Id </label>
+            <input type="number" id="pid" placeholder="person Id" readonly>
+        </div>
+        <br>
+        <div>
+            <label>First Name </label>
+            <input type="text" id="fName" placeholder="First Name" name="First Name" required>
+        </div><br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" id="lName" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label>Address</label>
+            <input type="text" id="add" placeholder="Address" required>
+        </div><br>
+        <div>
+            <label>Email</label>
+            <input type="text" id="email" placeholder="Email" required>
+        </div><br>
+        <div>
+            <label>Mobile No.</label>
+            <input type="number" id="mobile" placeholder="Mobile No." required>
+        </div><br>
+        <div>
+            <button class="sub-btn">Submit</button>
+            <button id="upt-btn">Update</button>
+        </div>
+
+    </form>
+    <br>
+    <h3>User Details</h3>
+    <div id="result">
+        <table>
+            <thead>
+                <tr id="tr">
+                    <th>Persion Id</th><br><br>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>email</th>
+                    <th>Mobile No.</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="form.js"></script>
+    <!-- <script src="constForm.js"></script> -->
+
+</body>
+
+</html>

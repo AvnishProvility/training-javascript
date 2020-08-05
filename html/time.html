@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+
+<body>
+    <div>
+        <h3>current time</h3>
+
+    </div>
+    <script>
+        function stopWatch() {
+            var startTime = Date.now;
+            // return document.getElementById("date").innerHTML = startTime;
+            return startTime;
+
+            function getDelay() {
+                var elapsedTime = Date.now() - startTime;
+                alert(elapsedTime);
+            }
+            return getDelay;
+        }
+        var time = stopWatch();
+        alert(time);
+    </script>
+</body>
+
+</html>

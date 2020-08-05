@@ -1,0 +1,22 @@
+                    body {
+                        background-color: powderblue;
+                    }
+                    
+                    h3 {
+                        max-width: 500px;
+                        text-align: center;
+                    }
+                    
+                    label {
+                        width: 110px;
+                        display: inline-block;
+                    }
+                    
+                    #form {
+                        max-width: 400px;
+                        padding: 10px;
+                    }
+                    
+                    #tr {
+                        max-width: 50px;
+                    }
